@@ -3,6 +3,7 @@
 import Link from "next/link";
 import styles from './Header.module.css';
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Header() {
 
     return (
         <header className={styles.header}>
-            <p className={styles.p}>🎹Teclados Musicais🎹</p>
+            <Image className={styles.logo} src='/images/logo.png' alt="Logo" width={190} height={60}/>
             
             <button onClick={alternarMenu} className={`${styles.menuButton} ${isMenuOpen ? styles.open : ''}`}>
                 <span></span>

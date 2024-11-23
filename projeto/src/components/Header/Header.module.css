@@ -75,6 +75,10 @@
     display: flex;
 }
 
+.logo {
+    border-radius: 100%;
+}
+
 @media (max-width: 600px) {
     .lista {
         display: block;
