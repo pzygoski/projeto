@@ -40,6 +40,7 @@ a {
 
 li:hover{
   color: rgb(42, 205, 255);
+  transform: scale(1.05)
 }
 
 

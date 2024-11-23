@@ -19,13 +19,15 @@
     list-style-type: none;
     color: white;
     display: flex;
-    gap: 18px;
+    gap: 17px;
     justify-content: center;
     padding: 15px;
     border-radius: 7px;
     font-family: 'Sour Gummy', serif;
     font-size: 18px;
 }
+
+
 
 .menuButton {
     display: none;
@@ -77,6 +79,12 @@
 
 .logo {
     border-radius: 100%;
+}
+
+@media (max-width: 729px) {
+    .lista {
+        text-align: right;
+    }
 }
 
 @media (max-width: 600px) {
